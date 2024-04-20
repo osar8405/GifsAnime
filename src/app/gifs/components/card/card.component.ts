@@ -3,8 +3,7 @@ import { Gif } from '../../interfaces/gif.interfaces';
 
 @Component({
   selector: 'gifs-card',
-  templateUrl: './card.component.html',
-  styleUrl: './card.component.css',
+  templateUrl: './card.component.html'
 })
 export class CardComponent implements OnInit {
 

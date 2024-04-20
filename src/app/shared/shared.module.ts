@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { LazyImageComponent } from './components/lazyImage/lazy-image.component';
 
 
 
@@ -9,8 +10,12 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     CommonModule
   ],
   declarations: [
-    SidebarComponent
+    SidebarComponent,
+    LazyImageComponent
   ],
-  exports: [SidebarComponent]
+  exports: [
+    SidebarComponent,
+    LazyImageComponent
+  ]
 })
 export class SharedModule { }
